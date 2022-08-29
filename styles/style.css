@@ -458,3 +458,100 @@ footer {
 .footer-text-container {
     color: #FFFFFF;
 }
+
+
+/* OPNIONS */
+.opnions {
+    width: 100%;
+    height: 765px;
+    padding: 80px 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.opnions-text-container {
+    margin-bottom: 51px;
+}
+.opnions-text {
+    text-align: center;
+    width: 600px;
+    height: 120px;
+}
+.opnions-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.opnions-text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #323232;
+}
+.review-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+
+
+.review-card {
+    width: 297px;
+    height: 296px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    padding: 32px 24px;
+}
+
+.review-img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000000;  
+    border-radius: 50%;
+}
+
+.profile-description {
+    width: 249px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-name {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.profile-text {
+    color: #323232;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134%;
+
+    text-align: center;
+}
+
+.card-center {
+    width: 338px;
+    height: 333px;
+}
